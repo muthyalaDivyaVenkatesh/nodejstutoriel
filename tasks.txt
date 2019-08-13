@@ -1,0 +1,24 @@
+///////////////////// 65 //////////////////////////////////////////
+create a routes folder and  cut all the code which is the app.js  and seperate it in 
+create admin.js (routes)
+create shop.js (routes)
+import it in app.js and use it app.use 
+
+///////////////////////// 66 ///////////////////// 
+
+use a route to hanlde unmatched route and send status with error 
+///////////////////////////// 67 /////////////////////////
+use a diffrent  route in app.js file in app.use  for adin and shope line for admin and shop seperatley
+
+////////////////////////////// 68 /////////////////////////////////////
+Create a html pages for serving in views folder 
+add-product.html(use navelement amd main element)
+and shop.html and serve them routes folder 
+
+/////////////////////////////// 69 //////////////////
+To send them in routes folder use path varable
+use realative path dirname and use send file for serving these routes 
+
+///////////////////////////// 6th folder ///////////
+ /////////////////////////////77 ////////////////
+                             

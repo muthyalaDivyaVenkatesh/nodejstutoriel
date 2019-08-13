@@ -1,0 +1,75 @@
+///// 44 tutoriel //////////////////
+nodemon start // not working why
+           5TH FOLDER
+///////////// EXPRESS ///////
+/////////////////////////////////////58//////////////////////////
+function inside function in javascript and excute the top most function and see
+what it does
+
+/////////////////////////////////// 59 /////////////////////////////
+nodejs works in async manner it keeps everything in memory and wait until the excution
+while as express works in the form of big middleware it wont get called until next ar res.send is used
+///////////////////////////////////////// 79 /////////////////
+/////////////////
+why can't we use app.set insted of static files
+
+/////////////////////////////////////////  94 ///////////////////////////////////////////////
+products = ['ddd'];
+
+router.post('/add-product',()=>productsController.postAddProduct(products) );
+
+
+exports.postAddProduct = (req, res, next, products) => {
+    console.log(products);
+    products.push({ title: req.body.title });
+    res.redirect('/');
+  }
+
+
+exports.getAddProduct = (req, res, next) => {
+    res.render('add-product', {
+      pageTitle: 'Add Product',
+      path: '/admin/add-product',
+      formsCSS: true,throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+      productCSS: true,
+      activeAddProduct: true
+    })
+}
+//////////////////////////////////////////////// MVC  //////////////////////////////////
+//////////////////////////////////////////// 94 /////////////////////////////
+exports.routes = router;
+
+app.use('/admin', adminRoutes);
+
+
+error - throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      
+module.exports = router;
+
+app.use('/admin', adminRoutes);
+
+fine how both are diffrent 
+
+////////////////////////////////// 96 ////////////////////////////////////////
+
+creating class proprtey vs creating a object in constructor in javascript
+
+class Product {
+
+    constructor(t) {
+        this.title = t
+    }
+
+
+vs 
+
+class Product {
+
+    constructor(t) {
+        var title = t
+    }
+}
+
+///////////////////////////////////////////////// 98 //(watch again )
